@@ -1,0 +1,43 @@
+Assignment 1 - part2- Threshold
+
+
+
+
+
+Pseudocode
+def Userinput ()function
+input is image
+asks user to enter options for selection
+while choice!='q'
+if option 1:
+	function1
+if option 2:
+	function2
+else: 
+	to quit press 'q'
+
+
+def Reflection function:
+takes in an image
+turns image to gray scale ('L')
+ask user for input on reflection percentage (up to 50)
+user asked for input on reflection type (vertical - v or horizontal-h)
+REFLECTION: 
+convert image to arrayimage
+mirroring the values of each pixel along axis
+performed on index by index manipulation of rows and columns 
+use numpy array manipulation (Can't use Pillow)
+show new reflect image via image.show()
+return numpy array of modified image
+
+
+
+
+
+def Threshold function
+input is unmodified grayscale image
+ask for user input
+change value of image pixels to either 0 or 255 based on input
+pixel value=0 if input <=255
+pixel value >0 if input>255
+return numpyarray of modified image 
